@@ -14,8 +14,8 @@
   },
   "legend": {
     "edgeLabel": "Mission Statement Similarity",
-    "colorLabel": "Communitiess of Similar Missions",
-    "nodeLabel": "School"
+    "colorLabel": "Neighborhoods of Similar Missions",
+    "nodeLabel": "Program or University"
   },
   "features": {
     "search": true,
@@ -33,20 +33,20 @@
       "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000",
-      "labelThreshold": 5,
+      "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 12
+      "defaultLabelSize": 14
     },
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
-      "minNodeSize": 2,
-      "maxNodeSize": 20
+      "minNodeSize": 1,
+      "maxNodeSize": 7
     },
     "mouseProperties": {
-      "maxRatio": 10,
+      "maxRatio": 20,
       "minRatio": 0.75
     }
   }

@@ -78,7 +78,7 @@ function initSigma(config) {
 	else
 		mouseProps={
         minRatio: 0.75, // How far can we zoom out?
-        maxRatio: .75, // How far can we zoom in?
+        maxRatio: 20, // How far can we zoom in?
     	};
 	
     var a = sigma.init(document.getElementById("sigma-canvas")).drawingProperties(drawProps).graphProperties(graphProps).mouseProperties(mouseProps);
